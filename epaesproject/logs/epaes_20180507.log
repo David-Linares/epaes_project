@@ -1,0 +1,91 @@
+INFO 2018-05-07 23:20:29,793 [views.py <module> 23]: Complete Configuration
+INFO 2018-05-07 23:21:06,316 [views.py post 39]: Llega petición
+DEBUG 2018-05-07 23:21:06,316 [views.py post 40]: {'object': 'page', 'entry': [{'id': '1973135496302261', 'time': 1525753266018, 'messaging': [{'recipient': {'id': '1973135496302261'}, 'timestamp': 1525753266018, 'sender': {'id': '1679689618770152'}, 'postback': {'payload': 'start', 'title': 'Get Started'}}]}]}
+INFO 2018-05-07 23:21:06,317 [views.py post 43]: Llega Page
+INFO 2018-05-07 23:21:06,317 [views.py post 44]: Entradas: 1
+INFO 2018-05-07 23:21:06,786 [views.py post 39]: Llega petición
+DEBUG 2018-05-07 23:21:06,786 [views.py post 40]: {'object': 'page', 'entry': [{'id': '1973135496302261', 'time': 1525753266018, 'messaging': [{'recipient': {'id': '1973135496302261'}, 'timestamp': 1525753266018, 'sender': {'id': '1679689618770152'}, 'postback': {'payload': 'start', 'title': 'Get Started'}}]}]}
+INFO 2018-05-07 23:21:06,786 [views.py post 43]: Llega Page
+INFO 2018-05-07 23:21:06,786 [views.py post 44]: Entradas: 1
+INFO 2018-05-07 23:21:07,246 [views.py post 39]: Llega petición
+DEBUG 2018-05-07 23:21:07,247 [views.py post 40]: {'object': 'page', 'entry': [{'id': '1973135496302261', 'time': 1525753266018, 'messaging': [{'recipient': {'id': '1973135496302261'}, 'timestamp': 1525753266018, 'sender': {'id': '1679689618770152'}, 'postback': {'payload': 'start', 'title': 'Get Started'}}]}]}
+INFO 2018-05-07 23:21:07,247 [views.py post 43]: Llega Page
+INFO 2018-05-07 23:21:07,247 [views.py post 44]: Entradas: 1
+INFO 2018-05-07 23:21:34,381 [views.py post 39]: Llega petición
+DEBUG 2018-05-07 23:21:34,381 [views.py post 40]: {'object': 'page', 'entry': [{'id': '1973135496302261', 'time': 1525753294194, 'messaging': [{'recipient': {'id': '1973135496302261'}, 'timestamp': 1525753294194, 'sender': {'id': '1679689618770152'}, 'postback': {'payload': '-500', 'title': 'Volver al menú anterior'}}]}]}
+INFO 2018-05-07 23:21:34,381 [views.py post 43]: Llega Page
+INFO 2018-05-07 23:21:34,382 [views.py post 44]: Entradas: 1
+DEBUG 2018-05-07 23:21:34,637 [views.py post 54]: Renueva sesión
+INFO 2018-05-07 23:21:37,088 [views.py post 74]: Devuelve 200 OK
+INFO 2018-05-07 23:26:15,982 [views.py post 39]: Llega petición
+DEBUG 2018-05-07 23:26:15,982 [views.py post 40]: {'object': 'page', 'entry': [{'id': '1973135496302261', 'time': 1525753575762, 'messaging': [{'recipient': {'id': '1973135496302261'}, 'timestamp': 1525753575762, 'sender': {'id': '1679689618770152'}, 'postback': {'payload': 'start', 'title': 'Get Started'}}]}]}
+INFO 2018-05-07 23:26:15,983 [views.py post 43]: Llega Page
+INFO 2018-05-07 23:26:15,983 [views.py post 44]: Entradas: 1
+DEBUG 2018-05-07 23:26:16,141 [views.py post 69]: Llega Postback
+INFO 2018-05-07 23:26:16,148 [views.py post 74]: Devuelve 200 OK
+INFO 2018-05-07 23:28:14,482 [views.py post 39]: Llega petición
+DEBUG 2018-05-07 23:28:14,483 [views.py post 40]: {'object': 'page', 'entry': [{'id': '1973135496302261', 'time': 1525753694253, 'messaging': [{'recipient': {'id': '1973135496302261'}, 'timestamp': 1525753694253, 'sender': {'id': '1679689618770152'}, 'postback': {'payload': 'start', 'title': 'Get Started'}}]}]}
+INFO 2018-05-07 23:28:14,483 [views.py post 43]: Llega Page
+INFO 2018-05-07 23:28:14,483 [views.py post 44]: Entradas: 1
+DEBUG 2018-05-07 23:28:14,568 [views.py post 69]: Llega Postback
+INFO 2018-05-07 23:28:14,575 [views.py post 74]: Devuelve 200 OK
+INFO 2018-05-07 23:30:13,114 [views.py post 39]: Llega petición
+DEBUG 2018-05-07 23:30:13,115 [views.py post 40]: {'object': 'page', 'entry': [{'id': '1973135496302261', 'time': 1525753812854, 'messaging': [{'recipient': {'id': '1973135496302261'}, 'timestamp': 1525753812854, 'sender': {'id': '1679689618770152'}, 'postback': {'payload': 'start', 'title': 'Get Started'}}]}]}
+INFO 2018-05-07 23:30:13,115 [views.py post 43]: Llega Page
+INFO 2018-05-07 23:30:13,115 [views.py post 44]: Entradas: 1
+DEBUG 2018-05-07 23:30:13,198 [views.py post 69]: Llega Postback
+INFO 2018-05-07 23:30:13,206 [views.py post 74]: Devuelve 200 OK
+INFO 2018-05-07 23:31:36,070 [views.py post 39]: Llega petición
+DEBUG 2018-05-07 23:31:36,071 [views.py post 40]: {'object': 'page', 'entry': [{'id': '1973135496302261', 'time': 1525753895907, 'messaging': [{'sender': {'id': '1679689618770152'}, 'recipient': {'id': '1973135496302261'}, 'timestamp': 1525753895517, 'message': {'mid': 'mid.$cAAcCjiE_CkNpb0oiXVjPgTWt16MV', 'seq': 36540, 'text': 'Hhhh', 'nlp': {'entities': {'thanks': [{'confidence': 0.54162948020387, 'value': 'true'}], 'greetings': [{'confidence': 0.99862241747289, 'value': 'true'}]}}}}]}]}
+INFO 2018-05-07 23:31:36,071 [views.py post 43]: Llega Page
+INFO 2018-05-07 23:31:36,071 [views.py post 44]: Entradas: 1
+DEBUG 2018-05-07 23:31:36,103 [views.py post 60]: Llega mensaje
+INFO 2018-05-07 23:31:36,104 [views.py post 74]: Devuelve 200 OK
+INFO 2018-05-07 23:32:44,202 [views.py post 39]: Llega petición
+DEBUG 2018-05-07 23:32:44,203 [views.py post 40]: {'object': 'page', 'entry': [{'id': '1973135496302261', 'time': 1525753963985, 'messaging': [{'sender': {'id': '1679689618770152'}, 'recipient': {'id': '1973135496302261'}, 'timestamp': 1525753963779, 'message': {'mid': 'mid.$cAAcCjiE_CkNpb0stA1jPgXhIRZs_', 'seq': 36541, 'text': 'Hhhh', 'nlp': {'entities': {'thanks': [{'confidence': 0.54162948020387, 'value': 'true'}], 'greetings': [{'confidence': 0.99862241747289, 'value': 'true'}]}}}}]}]}
+INFO 2018-05-07 23:32:44,203 [views.py post 43]: Llega Page
+INFO 2018-05-07 23:32:44,203 [views.py post 44]: Entradas: 1
+DEBUG 2018-05-07 23:32:44,260 [views.py post 60]: Llega mensaje
+INFO 2018-05-07 23:32:44,261 [views.py post 74]: Devuelve 200 OK
+INFO 2018-05-07 23:34:36,210 [views.py post 39]: Llega petición
+DEBUG 2018-05-07 23:34:36,211 [views.py post 40]: {'object': 'page', 'entry': [{'id': '1973135496302261', 'time': 1525754076007, 'messaging': [{'sender': {'id': '1679689618770152'}, 'recipient': {'id': '1973135496302261'}, 'timestamp': 1525754075694, 'message': {'mid': 'mid.$cAAcCjiE_CkNpb0ziLljPgeWOWbLF', 'seq': 36542, 'text': 'Hhhh', 'nlp': {'entities': {'thanks': [{'confidence': 0.54162948020387, 'value': 'true'}], 'greetings': [{'confidence': 0.99862241747289, 'value': 'true'}]}}}}]}]}
+INFO 2018-05-07 23:34:36,211 [views.py post 43]: Llega Page
+INFO 2018-05-07 23:34:36,211 [views.py post 44]: Entradas: 1
+DEBUG 2018-05-07 23:34:36,264 [views.py post 60]: Llega mensaje
+INFO 2018-05-07 23:34:36,265 [views.py post 74]: Devuelve 200 OK
+INFO 2018-05-07 23:36:08,205 [views.py post 39]: Llega petición
+DEBUG 2018-05-07 23:36:08,206 [views.py post 40]: {'object': 'page', 'entry': [{'id': '1973135496302261', 'time': 1525754167989, 'messaging': [{'sender': {'id': '1679689618770152'}, 'recipient': {'id': '1973135496302261'}, 'timestamp': 1525754167686, 'message': {'mid': 'mid.$cAAcCjiE_CkNpb05JhljPgj91vkgE', 'seq': 36543, 'text': 'Hhhj', 'nlp': {'entities': {'greetings': [{'confidence': 0.64159030259573, 'value': 'true'}]}}}}]}]}
+INFO 2018-05-07 23:36:08,206 [views.py post 43]: Llega Page
+INFO 2018-05-07 23:36:08,206 [views.py post 44]: Entradas: 1
+DEBUG 2018-05-07 23:36:08,265 [views.py post 60]: Llega mensaje
+INFO 2018-05-07 23:36:08,266 [views.py post 74]: Devuelve 200 OK
+INFO 2018-05-07 23:38:59,649 [views.py post 39]: Llega petición
+DEBUG 2018-05-07 23:38:59,650 [views.py post 40]: {'object': 'page', 'entry': [{'id': '1973135496302261', 'time': 1525754339439, 'messaging': [{'sender': {'id': '1679689618770152'}, 'recipient': {'id': '1973135496302261'}, 'timestamp': 1525754339161, 'message': {'mid': 'mid.$cAAcCjiE_CkNpb1DnWVjPgua4dWxh', 'seq': 36544, 'text': 'Stse', 'nlp': {'entities': {'greetings': [{'confidence': 0.64159030259573, 'value': 'true'}]}}}}]}]}
+INFO 2018-05-07 23:38:59,650 [views.py post 43]: Llega Page
+INFO 2018-05-07 23:38:59,650 [views.py post 44]: Entradas: 1
+DEBUG 2018-05-07 23:38:59,717 [views.py post 60]: Llega mensaje
+INFO 2018-05-07 23:38:59,718 [views.py post 74]: Devuelve 200 OK
+INFO 2018-05-07 23:40:39,351 [views.py post 39]: Llega petición
+DEBUG 2018-05-07 23:40:39,351 [views.py post 40]: {'object': 'page', 'entry': [{'id': '1973135496302261', 'time': 1525754439175, 'messaging': [{'sender': {'id': '1679689618770152'}, 'recipient': {'id': '1973135496302261'}, 'timestamp': 1525754438929, 'message': {'mid': 'mid.$cAAcCjiE_CkNpb1JtEVjPg0g-R1O1', 'seq': 36545, 'text': 'Hyuddd', 'nlp': {'entities': {'location': [{'suggested': True, 'confidence': 0.8662, 'value': 'Hyuddd', 'type': 'value'}]}}}}]}]}
+INFO 2018-05-07 23:40:39,352 [views.py post 43]: Llega Page
+INFO 2018-05-07 23:40:39,352 [views.py post 44]: Entradas: 1
+DEBUG 2018-05-07 23:40:39,410 [views.py post 60]: Llega mensaje
+INFO 2018-05-07 23:40:39,411 [views.py post 74]: Devuelve 200 OK
+INFO 2018-05-07 23:44:00,238 [views.py post 39]: Llega petición
+DEBUG 2018-05-07 23:44:00,238 [views.py post 40]: {'object': 'page', 'entry': [{'id': '1973135496302261', 'time': 1525754640023, 'messaging': [{'sender': {'id': '1679689618770152'}, 'recipient': {'id': '1973135496302261'}, 'timestamp': 1525754530001, 'message': {'mid': 'mid.$cAAcCjiE_CkNpb1PQ0VjPg6Ew9H9i', 'seq': 36546, 'text': 'Urudid', 'nlp': {'entities': {'location': [{'suggested': True, 'confidence': 0.8662, 'value': 'Urudid', 'type': 'value'}]}}}}]}]}
+INFO 2018-05-07 23:44:00,238 [views.py post 43]: Llega Page
+INFO 2018-05-07 23:44:00,238 [views.py post 44]: Entradas: 1
+DEBUG 2018-05-07 23:44:00,304 [views.py post 60]: Llega mensaje
+INFO 2018-05-07 23:44:00,305 [views.py post 74]: Devuelve 200 OK
+INFO 2018-05-07 23:44:05,317 [views.py post 39]: Llega petición
+DEBUG 2018-05-07 23:44:05,318 [views.py post 40]: {'object': 'page', 'entry': [{'id': '1973135496302261', 'time': 1525754645116, 'messaging': [{'sender': {'id': '1679689618770152'}, 'recipient': {'id': '1973135496302261'}, 'timestamp': 1525754644884, 'message': {'mid': 'mid.$cAAcCjiE_CkNpb1WRlFjPhBFrI_7F', 'seq': 36547, 'text': 'If6e6d', 'nlp': {'entities': {'greetings': [{'confidence': 0.50386709520008, 'value': 'true'}]}}}}]}]}
+INFO 2018-05-07 23:44:05,318 [views.py post 43]: Llega Page
+INFO 2018-05-07 23:44:05,318 [views.py post 44]: Entradas: 1
+DEBUG 2018-05-07 23:44:05,397 [views.py post 60]: Llega mensaje
+INFO 2018-05-07 23:44:05,398 [views.py post 74]: Devuelve 200 OK
+INFO 2018-05-07 23:52:03,126 [views.py post 39]: Llega petición
+DEBUG 2018-05-07 23:52:03,127 [views.py post 40]: {'object': 'page', 'entry': [{'id': '1973135496302261', 'time': 1525755122941, 'messaging': [{'sender': {'id': '1679689618770152'}, 'recipient': {'id': '1973135496302261'}, 'timestamp': 1525755019442, 'message': {'mid': 'mid.$cAAcCjiE_CkNpb1tIsljPhX827GgV', 'seq': 36548, 'text': 'Pqoqoq', 'nlp': {'entities': {'location': [{'suggested': True, 'confidence': 0.8662, 'value': 'Pqoqoq', 'type': 'value'}]}}}}]}]}
+INFO 2018-05-07 23:52:03,127 [views.py post 43]: Llega Page
+INFO 2018-05-07 23:52:03,127 [views.py post 44]: Entradas: 1
+DEBUG 2018-05-07 23:52:03,176 [views.py post 60]: Llega mensaje
+INFO 2018-05-07 23:52:03,176 [views.py post 74]: Devuelve 200 OK

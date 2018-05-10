@@ -43,5 +43,11 @@ Pasos de Instalación
 > &emsp;  **$** yum install -y gcc
 > &emsp;  **$** pip3 install -r requirements
 > &emsp;  **$** yum install -y python36u-mod_wsgi
->
+> &emsp;  **$** wget http://download.redis.io/releases/redis-stable.tar.gz
+> &emsp;  **$** tar xzvf redis-stable.tar.gz
+> &emsp;  **$** cd redis-stable
+> &emsp;  **$** make
+> &emsp;  **$** make install
+> &emsp;  **$** redis-server
+ 
 

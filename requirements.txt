@@ -3,3 +3,8 @@ djangorestframework
 markdown
 django-filter
 mysqlclient
+redis
+SpeechRecognition
+pocketsphinx
+fuzzywuzzy
+python-Levenshtein
