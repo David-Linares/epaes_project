@@ -237,6 +237,7 @@ def get_init_message_db(sender_id, menu_parent=None, init_message=False, menu_id
     elif situation:
         logger.info("Situation...")
         logger.info(int(rdb.hget(sender_id, "selection_type_practice")))
+        rdb.hset(sender_id, "attemps_num", 3)
         if int(rdb.hget(sender_id, "selection_type_practice")) == settings.CONSTANTS['MENU_AUDIO_ID']:
             rdb.hset(sender_id, "pending_message", settings.CONSTANTS['MENU_AUDIO_ID'])
         elif int(rdb.hget(sender_id, "selection_type_practice")) == settings.CONSTANTS['TEXT_MENU_AUDIO_ID']:

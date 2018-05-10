@@ -27,7 +27,7 @@ DROP TABLE IF EXISTS `activity_logs`;
 CREATE TABLE `activity_logs` (
   `log_id` int(11) NOT NULL AUTO_INCREMENT,
   `user_id` int(11) NOT NULL COMMENT 'el id del usuario en facebook, es el que hacer la conexión.',
-  `last_activity_date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `last_activity_date` timestamp NOT NULL DEFAULT current_timestamp,
   `agent_connection` varchar(200) DEFAULT NULL,
   `interaction_number` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`log_id`)
@@ -211,7 +211,7 @@ CREATE TABLE `category_messages` (
   `name_category` varchar(200) NOT NULL,
   `category_status` tinyint(1) DEFAULT '1',
   `date_created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `date_last_modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `date_last_modified` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id_category`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -239,7 +239,7 @@ CREATE TABLE `chat` (
   `message_content` varchar(100) NOT NULL,
   `user_response` tinyint(1) DEFAULT '0',
   `date_created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `date_last_modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `date_last_modified` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id_chat`)
 ) ENGINE=InnoDB AUTO_INCREMENT=626 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -374,7 +374,7 @@ DROP TABLE IF EXISTS `event_logs`;
 CREATE TABLE `event_logs` (
   `event_id` int(11) NOT NULL AUTO_INCREMENT,
   `facebook_event_id` varchar(20) NOT NULL COMMENT 'Id del evento según facebook',
-  `activity_date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `activity_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `type_event` int(11) NOT NULL,
   `user_id` varchar(20) NOT NULL,
   `facebook_timestamp` varchar(30) NOT NULL COMMENT 'fecha de la petición de facebook',
@@ -434,7 +434,7 @@ CREATE TABLE `messages` (
   `message_response` varchar(200) COLLATE utf8mb4_spanish2_ci DEFAULT NULL,
   `message_status` tinyint(1) DEFAULT '1',
   `date_created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `date_last_modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `date_last_modified` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id_message`)
 ) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish2_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -570,7 +570,7 @@ CREATE TABLE `type_messages` (
   `name_type_message` varchar(200) NOT NULL,
   `type_message_status` tinyint(1) DEFAULT '1',
   `date_created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `date_last_modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `date_last_modified` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id_type_message`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -601,7 +601,7 @@ CREATE TABLE `users` (
   `profile_picture` varchar(250) DEFAULT NULL,
   `user_status` tinyint(1) DEFAULT '1',
   `date_created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `date_last_modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `date_last_modified` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id_user`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
