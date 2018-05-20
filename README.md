@@ -49,5 +49,7 @@ Pasos de Instalación
 > &emsp;  **$** make
 > &emsp;  **$** make install
 > &emsp;  **$** redis-server
+> &emsp;  **$** sudo rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-1.el7.nux.noarch.rpm
+> &emsp;  **$** yum install ffmpeg 
  
 
