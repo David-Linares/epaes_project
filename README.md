@@ -1,6 +1,10 @@
 Proyecto EPAES (Bot de Ayuda para Aprender Español)
 ================
 
+Proyecto desarrollado usando el framework libre Django versión 1.11.4
+
+Se usaron las librerías libres mencionadas en el archivo requirements.txt
+
 ----
 
 Pasos de Instalación
